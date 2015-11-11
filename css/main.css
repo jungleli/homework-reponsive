@@ -42,7 +42,6 @@ section li {
 
 .logo{
     width: 90%;
-    min-height: 10em;
     margin: 0 auto;
 }
 
@@ -228,6 +227,9 @@ nav .mobile-menu{
         background: rgba(0,170,92,0.9);
     }
     .nav>ul:hover li{
+        display: block;
+    }
+    .nav>ul:active li{
         display: block;
     }
     nav li:first-child::before,
