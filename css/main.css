@@ -179,6 +179,12 @@ nav .mobile-menu{
     border-radius: 5px;
 }
 
+@media (max-width: 480px){
+	.photo-list ul li {
+		float: none;
+		width: 100%;
+	}
+}
 
 @media (max-width: 768px){
     .slider-nav nav{
